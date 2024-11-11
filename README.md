@@ -11,21 +11,6 @@ A simple C program that retrieves and displays the current weather information f
   - libcurl for making HTTP requests
   - cJSON library for parsing JSON responses
 
-## Installation
-### 1. Clone the repository:
-
-```bash
-  git clone https://github.com/yourusername/your-repo-name.git
-  cd your-repo-name
-```
-### 2. Set up dependencies:
-  - Ensure libcurl and cJSON are installed and configured for your compiler.
-
-### 3. Compile the code:
-
-```bash
-  gcc -o weather_checker main.c -lcurl -lcjson
-```
 ## Usage
   - Enter the name of the city for which you want to check the weather.\
 
