@@ -16,7 +16,7 @@ A simple C program that retrieves and displays the current weather information f
 
 ## Example
 ```bash
-Enter the city name: London
+Enter the city name: Delhi
 ```
 
 #### Output:
@@ -25,19 +25,20 @@ Welcome to the Weather Checker!
 -------------------------------------------
 This program shows you the current weather in any city.
 
-Temperature: 12.34 °C
-It feels like: 11.56 °C
-Minimum Temperature: 10.00 °C
-Maximum Temperature: 14.50 °C
+Temperature: 20.05 °C
+It feels like: 20.41 °C
+Minimum Tempreature: 20.05 °C
+Maximum Tempreature: 20.05 °C
 
-Pressure: 1012 mBar
-Humidity: 82%
-Weather Condition: overcast clouds
-Wind Speed: 3.45 kph
+Pressure: 1014 mBar
+Humidity: 88 %
+Weather Condition: mist
+Wind Speed: 2.57 kph
 
-Sunrise: 06:30:00
-Sunset: 18:15:00
-Country Code: GB
+Sunrise: 06:41:40
+Sunset: 17:29:05
+
+Country Code: IN
 ```
 ## Note
 To use this program, replace "e6d43eafcf69f246c6180b997c652ea7" with your own OpenWeatherMap API key.
