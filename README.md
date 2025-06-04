@@ -161,10 +161,6 @@ Contributions are welcome! Here's how you can help:
 - Create a GUI version
 - Add weather history functionality
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 👨‍💻 Author
 
 **Vatsal Jaiswal**
