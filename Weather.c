@@ -1,8 +1,9 @@
 /*
     Program to Check the Weather Data of Any City
     Author: Vatsal Jaiswal
-    Description: A command-line program that retrieves and displays current weather details for a specified city.
-                 This program fetches temperature, humidity, wind speed, weather conditions, and sunrise/sunset times using data from the OpenWeatherMap API.
+    Description:A command-line program that retrieves and displays current weather details for a specified city.
+                This program fetches temperature, humidity, wind speed, weather conditions, and sunrise/sunset times
+                using data from the OpenWeatherMap API.
 */
 
 #include <stdio.h>
@@ -11,18 +12,17 @@
 #include <locale.h>
 #include <time.h>
 #include <curl/curl.h>
-#include "cJSON.h"
+#include <cjson/cJSON.h>
 
 // Function to print the intro
 void print_intro()
 {
-    system("cls");
     printf("             Welcome to the Weather Checker! \n");
     printf("------------------------------------------------------------\n");
     printf("This program shows you the current weather in any city.\n\n");
 }
 
-// Function to convert UNIX tmestamp to Readable format
+// Function to convert UNIX timestamp to Readable format
 void convertUnixTimestamp(time_t timestamp, int timezone_offset)
 {
     timestamp += timezone_offset;
@@ -125,11 +125,11 @@ int main(void)
 
     // API endpoint and authentication key (replace `api_key` with your own key)
     char *link = "http://api.openweathermap.org/data/2.5/weather?q=";
-    char *api_key = "&appid=e6d43eafcf69f246c6180b997c652ea7&units=metric";
+    char *api_key = "&appid=YOUR_API_KEY&units=metric";
 
     char city_name[50];
     printf("Enter the city name: ");
-    scanf("%49s", &city_name);
+    scanf("%49s", city_name);
 
     printf("\n");
 
