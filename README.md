@@ -168,7 +168,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **Vatsal Jaiswal**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@Vatsalj17](https://github.com/Vatsalj17)
 
 ## 🙏 Acknowledgments
 
